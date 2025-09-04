@@ -1,0 +1,47 @@
+
+
+/* Importing fonts from Google */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+Tamil:wght@100..900&family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+
+/* Local font-face definitions for custom fonts (Volte Play) */
+
+@font-face {
+  font-family: "Volte Play";
+  src: url("/Font/Volte-Regular.woff2") format("woff2"),
+       url("/Font/Volte-Regular.woff") format("woff");
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Volte Play";
+  src: url("/Font/Volte-Medium.woff2") format("woff2"),
+       url("/Font/Volte-Medium.woff") format("woff");
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Volte Play";
+  src: url("/Font/Volte-Semibold.woff2") format("woff2"),
+       url("/Font/Volte-Semibold.woff") format("woff");
+  font-weight: 700;
+}
+
+
+
+/* Global font family for the entire site */
+* {
+  font-family: "Volte Play" !important;
+  font-weight: "bold";
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Volte Play", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+code {
+  font-family: "Volte Play", monospace;
+}
